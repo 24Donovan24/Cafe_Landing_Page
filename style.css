@@ -1,0 +1,163 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: scroll;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .header {
+    min-height: 60px;
+    max-height: 60px;
+    display: flex;
+    background:#01001b;
+    color: white;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+  }
+
+  .leftheader {
+      font-size: 22px;
+      font-weight: bold;
+  }
+
+  .bodyone {
+      max-height: 500px;
+      background:#020a2c;
+      padding: 75px 200px;
+      display: flex;
+      color: white;
+      justify-content: space-between;
+  }
+
+  .title {
+      max-width: 1000px;
+      font-weight: bold;
+      font-size: 40px;
+      margin-bottom: 30px;
+  }
+
+  button {
+      margin-top: 30px;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: bold;
+      background:#462d01;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+  }
+  
+  .rightbody {
+      margin: 0;
+      padding-right: 200px;
+  }
+
+  .logo {
+      height: 275px;
+      border-radius: 50px;
+  }
+
+  .bodytwo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #1d1201;
+    color: white;
+  }
+
+  .topbody {
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      font-family: cursive;
+      margin-top: 30px;
+  }
+
+  .bottombody {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .info {
+      max-width: 250px;
+      text-align: center;
+  }
+
+  img {
+      height: 150px;
+      border-radius: 50px;
+  }
+
+  .text {
+      margin-top: 10px;
+      font-size: 18px;
+  }
+
+  .bodythree {
+      display: flex;
+      flex-direction: column;
+      max-height: 500px;
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+      background: rgb(73, 51, 9);
+      font-weight: bold;
+  }
+
+  .quote {
+      font-size: 45px;
+      max-width: 800px;
+      margin-bottom: 20px;
+  }
+
+  .writer {
+      font-size: 20px;
+      margin-left: 500px;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+  }
+
+  .box {
+      display: flex;
+      align-items: center;
+      background: rgb(14, 109, 218);
+      color: white;
+      max-width: 700px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding: 30px 60px;
+      border-radius: 20px;
+  }
+
+  .signup button {
+      width: 150px;
+      margin: 0 0 0 75px;
+      background: rgb(14, 109, 218);
+      border-style: solid;
+
+  }
